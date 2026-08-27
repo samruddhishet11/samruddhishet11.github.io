@@ -1,0 +1,190 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+body{
+font-family: Arial, sans-serif;
+line-height: 1.6;
+color: #333;
+}
+header{
+background: #333;
+color: white;
+padding: 15px 40px;
+position: sticky;
+top: 0;
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1100px;
+margin: auto;
+}
+nav ul{
+display: flex;
+list-style: none;
+gap: 20px;
+}
+nav a{
+color: white;
+text-decoration: none;
+}
+nav a:hover{
+color: #b9a7ff;
+}
+.home{
+min-height: 85vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 50px;
+max-width: 1100px;
+margin: auto;
+padding: 60px 30px;
+}
+.home div{
+max-width: 600px;
+}
+.home h1{
+font-size: 45px;
+color: #4b3ca7;
+}
+.home h2{
+margin: 10px 0;
+color: #555;
+}
+.home p {
+margin: 20px 0;
+}
+.home img{
+width: 280px;
+height: 280px;
+object-fit: cover;
+border-radius: 50%;
+}
+.button {
+display: inline-block;
+background: #4b3ca7;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+}
+section{
+max-width: 1000px;
+margin: auto;
+padding: 70px 30px;
+}
+section h2 {
+text-align: center;
+color: #4b3ca7;
+margin-bottom: 30px;
+font-size: 32px;
+}
+.light{
+max-width: none;
+background: #f5f5fa;
+}
+.card{
+background: white;
+padding: 25px;
+margin: 20px auto;
+max-width: 900px;
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+.card h3{
+color: #4b3ca7;
+margin-bottom: 5px;
+}
+.card h4{
+color: #666;
+margin-bottom: 5px;
+}
+.card ul{
+padding-left: 20px;
+margin-top: 15px;
+}
+.skills{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 12px;
+}
+.skills span {
+background: #eeeaff;
+color: #4b3ca7;
+padding: 8px 15px;
+border-radius: 20px;
+}
+.gallery{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+.gallery img {
+width: 100%;
+height: 280px;
+object-fit: cover;
+border-radius: 8px;
+}
+.gallery img:hover{
+transform: scale(1.02);
+}
+a{
+color: #4b3ca7;
+}
+footer{
+background: #333;
+color: white;
+text-align: center;
+padding: 20px;
+}
+.hobbies{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+max-width: 900px;
+margin: auto;
+}
+.hobbies div{
+background: white;
+padding: 25px 15px;
+text-align: center;
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+.hobbies h3{
+color: #4b3ca7;
+margin-bottom: 10px;
+}
+.hobbies p{
+font-size: 14px;
+color: #666;
+}
+.hobbies div:hover{
+transform: translateY(-4px);
+}
+.coursework{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 15px;
+max-width: 900px;
+margin: auto;
+}
+.coursework div{
+background: white;
+padding: 18px;
+text-align: center;
+border-left: 4px solid #4b3ca7;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.coursework div:hover{
+background: #eeeaff;
+}
